@@ -1,0 +1,132 @@
+.counter-section {
+	position: relative;
+	z-index: 10;
+}
+
+.counter-section .auto-container {
+	max-width: 1340px;
+}
+
+.counter-section .inner-container {
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 45px 40px 15px;
+}
+
+.counter-section .vector-layer-one {
+	position: absolute;
+	left: -60px;
+	top: -40px;
+	width: 200px;
+	height: 205px;
+	background: url(./img/vector-11.png) no-repeat;
+}
+
+.counter-section .vector-layer-two {
+	position: absolute;
+	right: -65px;
+	bottom: -40px;
+	width: 200px;
+	height: 205px;
+	background: url(./img/vector-12.png) no-repeat;
+}
+
+.counter-section .vector-layer-three {
+	position: absolute;
+	left: 42%;
+	top: -90px;
+	width: 200px;
+	height: 205px;
+	background: url(./img/vector-13.png) no-repeat;
+}
+
+.counter-section .vector-layer-four {
+	position: absolute;
+	left: 19%;
+	top: -100px;
+	width: 202px;
+	height: 201px;
+	background: url(./img/vector-14.png) no-repeat;
+}
+
+.counter-section .vector-layer-five {
+	position: absolute;
+	right: 19%;
+	top: -100px;
+	width: 202px;
+	height: 201px;
+	background: url(./img/vector-14.png) no-repeat;
+}
+
+.counter-section .vector-layer-six {
+	position: absolute;
+	left: 42%;
+	bottom: -100px;
+	width: 202px;
+	height: 201px;
+	background: url(./img/vector-14.png) no-repeat;
+}
+
+/* Fact Counter */
+
+.fact-counter {
+	position: relative;
+}
+
+.fact-counter .counter-item {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.fact-counter .counter-item .inner {
+	position: relative;
+	text-align: center;
+}
+
+.fact-counter .counter-item .inner .content {
+	position: relative;
+}
+
+.fact-counter .counter-item .inner .icon {
+	font-weight: 400;
+	color: var(--white-clr);
+	font-size: 40px;
+	display: inline-block;
+	margin-bottom: 20px;
+	transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-webkit-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+}
+
+.fact-counter .counter-item .inner:hover .icon {
+	-webkit-transform: scale(-1) rotate(180deg);
+	-moz-transform: scale(-1) rotate(180deg);
+	-ms-transform: scale(-1) rotate(180deg);
+	-o-transform: scale(-1) rotate(180deg);
+	transform: scale(-1) rotate(180deg);
+}
+
+.fact-counter .count-outer .percentage {
+	position: relative;
+}
+
+.fact-counter .counter-item .inner .count-outer {
+	position: relative;
+	font-weight: 400;
+	line-height: 1em;
+	color: var(--white-clr);
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fact-counter .counter-item h5 {
+	font-weight: 400;
+	color: var(--white-clr);
+	margin-top: 10px;
+	font-size: 18px;
+}
